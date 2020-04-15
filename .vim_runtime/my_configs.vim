@@ -69,7 +69,7 @@ let g:ale_python_black_options="--line-length 80"
 let g:ale_fix_on_save=1
 
 " YouCompleteMe config
-nnoremap <leader>yd :YcmCompleter GoTo<CR>
+nnoremap <leader>af :YcmCompleter GoTo<CR>
 
 " Old search highlights sometimes appear after re-sourcing vim with ,re
 " To fix that we end by clearing search highlights:
@@ -88,7 +88,7 @@ set foldlevel=10
 
 " color scheme
 "set background=dark
-colorscheme highwayman
+colorscheme vimbrains
 highlight SignColumn guibg=Black ctermbg=Black
 highlight FoldColumn guibg=Black ctermbg=Black
 set foldcolumn=0
