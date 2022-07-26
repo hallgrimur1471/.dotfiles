@@ -58,9 +58,9 @@ let NERDTreeIgnore=['\.pyc$']
 let g:ycm_autoclose_preview_window_after_insertion=1
 
 " ALE config
-let g:ale_linters={"python": ["flake8", "mypy", "pylint"], "cpp": []}
+let g:ale_linters={"python": ["pylint"], "cpp": []}
 let g:ale_linters_explicit=1
-let g:ale_fixers={"python": ["black"], "cpp": ["clang-format"]}
+let g:ale_fixers={"python": ["black"], "cpp": ["clang-format"], "go": ["gofmt"]}
 
 let g:ale_python_flake8_options="--max-line-length=80 --ignore=W503,E203,E712,E701,E901,E731,E251,E402,F841"
 let g:ale_python_mypy_options="--ignore-missing-imports"
